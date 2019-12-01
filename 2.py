@@ -7,6 +7,9 @@ import unittest
 class Fraction:
     """ Fraction class: support addition, substraction, multiplication, division and some 
         simple calculation
+        
+        
+        #####
     """
     def __init__(self, num , denom):      
         """ set num and denom,raise ValueError when denom = 0"""
