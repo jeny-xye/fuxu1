@@ -10,7 +10,8 @@ class Fraction:
     """
     def __init__(self, num , denom):      
         """ set num and denom,raise ValueError when denom = 0"""
-        self.num = num
+        self.num = num    
+        #  
         self.denom = denom
         if denom == 0:
             raise ValueError('0 is an invalid denominator') 
